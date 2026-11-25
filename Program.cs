@@ -6,7 +6,14 @@ class Program
     static long Factorial(int n)
     {
         // TODO: напишите решение здесь
-        return 0;
+    long result = 1;
+
+for (int i = 1; i <= n; i++)
+{
+    result *= i;
+}
+
+return result;
     }
 
     static void Main()
